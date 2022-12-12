@@ -36,7 +36,7 @@ npx prisma migrate dev
 Start the server
 
 ```bash
-npm run dev
+npm start
 ```
 
 Your express server will now be running on port 5000. You can visit [http://localhost:5000](http://localhost:5000) in your web browser to verify that the server is working correctly.
