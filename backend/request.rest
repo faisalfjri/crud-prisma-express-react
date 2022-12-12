@@ -1,0 +1,29 @@
+### HomePage
+GET http://localhost:5000
+
+### Get Product All 
+GET http://localhost:5000/products
+
+### Show Product
+GET http://localhost:5000/products/1
+
+### Create Product
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+    "name": "Milo",
+    "price": 6000
+}
+
+### Update Product
+PATCH http://localhost:5000/products/7
+Content-Type: application/json
+
+{
+    "name": "Nutrisari",
+    "price": 5000
+}
+
+### Delete Product
+DELETE http://localhost:5000/products/1

@@ -1,0 +1,22 @@
+{
+    "name": "crud-express-prisma",
+    "version": "1.0.0",
+    "description": "CRUD Express Prisma - Backend",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index",
+        "start": "node index.js"
+    },
+    "author": "Faisal Fajri",
+    "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "^4.7.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "prisma": "^4.7.1"
+    }
+}
