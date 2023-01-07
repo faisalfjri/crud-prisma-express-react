@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+    prisma-react:
+        stdin_open: true
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: prisma-react
+        ports:
+            - 5000:5000
+        restart: always
+        networks:
+            - shared_network
+
+networks:
+    shared_network:
+        driver: bridge
+        name: shared_network
